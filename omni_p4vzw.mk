@@ -2,12 +2,12 @@
 $(call inherit-product, device/samsung/p4vzw/p4vzw.mk)
 
 # Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_p4vzw
+PRODUCT_NAME := omni_p4vzw
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := p4vzw
 PRODUCT_MODEL := SCH-I905
