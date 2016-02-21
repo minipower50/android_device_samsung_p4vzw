@@ -32,5 +32,5 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 14472970240
 TARGET_KERNEL_SOURCE := kernel/samsung/p4
 TARGET_KERNEL_CONFIG := cyanogenmod_samsung_p4lte-jb_defconfig
 # Keep this as a fallback
-TARGET_PREBUILT_KERNEL := device/samsung/p4vzw/kernel
+#TARGET_PREBUILT_KERNEL := device/samsung/p4vzw/kernel
 
