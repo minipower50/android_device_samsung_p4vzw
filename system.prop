@@ -7,12 +7,6 @@ rild.libargs=-d /dev/ttyS0
 telephony.lteOnCdmaDevice=1
 keyguard.no_require_sim=yes
 
-# screenshot flag
-ro.bq.gpu_to_cpu_unsupported = 1
-
-# bootloop fix
-sys.disable_ext_animation=1
-
 ro.setupwizard.prepay_setup_url=http://quickaccess.verizonwireless.com/bbportal/oem/start.do?imsi=^1
 ro.setupwizard.prepay_redir_url=quickaccess.verizonwireless.com
 
