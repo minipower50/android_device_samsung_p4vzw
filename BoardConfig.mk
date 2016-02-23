@@ -30,7 +30,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 14472970240
 
 # Try to build the kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/p4
-TARGET_KERNEL_CONFIG := cyanogenmod_samsung_p4lte-jb_defconfig
-# Keep this as a fallback
-TARGET_PREBUILT_KERNEL := device/samsung/p4vzw/kernel
-
+ifeq ($(BUILDING_RECOVERY),true)
+    TARGET_KERNEL_CONFIG := p4vzw_recovery_defconfig
+else
+    TARGET_KERNEL_CONFIG := cyanogenmod_samsung_p4lte-jb_defconfig
+endif
