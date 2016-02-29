@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nameless_p4vzw.mk
+    $(LOCAL_DIR)/p4vzw.mk

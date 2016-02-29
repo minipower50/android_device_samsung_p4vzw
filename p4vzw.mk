@@ -23,7 +23,7 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 $(call inherit-product, device/samsung/p4-common/p4-common.mk)
 
-$(call inherit-product, vendor/samsung/p4vzw/p4vzw-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/p4vzw/p4vzw-vendor.mk)
 
 # Cameradata
 PRODUCT_COPY_FILES += \
